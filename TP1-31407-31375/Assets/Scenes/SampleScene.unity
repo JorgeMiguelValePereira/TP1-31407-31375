@@ -173,14 +173,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1813114744629989383, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3be3beac903ae6b40a8d98d98d4964a0, type: 2}
     - target: {fileID: 2101291439513028716, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2533259228114417999, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3be3beac903ae6b40a8d98d98d4964a0, type: 2}
+    - target: {fileID: 2921847427833933089, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3be3beac903ae6b40a8d98d98d4964a0, type: 2}
     - target: {fileID: 3034373643497335216, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ab035d7682921704a9015ac353311d57, type: 2}
+      objectReference: {fileID: 2100000, guid: 3be3beac903ae6b40a8d98d98d4964a0, type: 2}
+    - target: {fileID: 3034373643497335216, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3be3beac903ae6b40a8d98d98d4964a0, type: 2}
     - target: {fileID: 3199313349186639557, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
       propertyPath: m_UseGravity
       value: 1
@@ -205,6 +221,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3604301173234896577, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3be3beac903ae6b40a8d98d98d4964a0, type: 2}
     - target: {fileID: 4754013296954375764, guid: affd65c6c8bad6f438c35382c581f299, type: 3}
       propertyPath: m_TagString
       value: Player
@@ -624,12 +644,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
