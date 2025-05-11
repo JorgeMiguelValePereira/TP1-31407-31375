@@ -4,7 +4,7 @@ public class ParkingManager : MonoBehaviour
 {
     public GameObject parkingZonePrefab;      // Prefab do estacionamento
     public Vector3 areaCenter = Vector3.zero; // Centro da área de spawn
-    public Vector3 areaSize = new Vector3(20, 0, 20); // Tamanho da área
+    public Vector3 areaSize = new Vector3(40, 0, 40); // Tamanho da área
 
     public UIManager uiManager;
 
